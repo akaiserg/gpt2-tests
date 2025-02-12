@@ -1,0 +1,13 @@
+brew install tiktoken
+
+python3.12 -m venv myenv
+
+
+source myenv/bin/activate
+
+pip install tiktoken
+
+
+
+pip install langchain chromadb torch transformers sentence-transformers ctransformers PyPDF2
+
